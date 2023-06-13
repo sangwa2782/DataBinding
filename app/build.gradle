@@ -1,4 +1,4 @@
-plugins {
+ plugins {
     id 'com.android.application'
 }
 
@@ -15,6 +15,12 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    buildFeatures
+            {
+                viewBinding true;
+            }
+
 
     buildTypes {
         release {
